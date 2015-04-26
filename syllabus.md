@@ -63,7 +63,7 @@ We will be using the [Moodle platform](http://moodle.hanover.edu) for online qui
 
 ### Exams
 
-There will be three exams, on Tuesday, May 5th, Thursday, May 14th, and Friday, May 22nd. In terms of your final grade, the exam you did better on will weigh a bit more, the one you did worse on a bit less.
+There will be three exams, on Wednesday, May 6th, Thursday, May 14th, and Friday, May 22nd. In terms of your final grade, the exam you did better on will weigh a bit more, the one you did worse on a bit less.
 
 ### Getting Help
 

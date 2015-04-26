@@ -5,53 +5,55 @@ A week-by-week breakdown of the material.
 ## Week  1 (01/05-01/09)
 
 Day 1
-  ~ [Graphs, Euler Circuits, Valence](notes/graphs_euler.md)
+  ~ Introduction
 
 Day 2
-  ~ [Hamiltonian Circuits, Complete Graphs](notes/graphs_hamiltonian.md)
+  ~ [Graphs, Euler Circuits, Valence](notes/graphs_euler.md)
 
 Day 3
+  ~ [Hamiltonian Circuits, Complete Graphs](notes/graphs_hamiltonian.md)
+
+Day 4
   ~ [Traveling Salesman Problem](notes/graphs_tsp.md)
 
       [Minimum Cost Spanning Trees](notes/graphs_mst.md)
 
-Day 4
-  ~ [Directed Graphs, Critical Paths](notes/graphs_directed.md)
-
 Day 5
-  ~ [Priority Lists, Scheduling, Independent Tasks](notes/scheduling.md)
+  ~ [Directed Graphs, Critical Paths](notes/graphs_directed.md)
 
 ## Week  2 (01/12-01/16)
 
 Day 1
-  ~ [Bin-packing, Vertex-Coloring](notes/bin_packing.md)
+  ~ [Priority Lists, Scheduling, Independent Tasks](notes/scheduling.md)
 
 Day 2
-  ~ MIDTERM 1
+  ~ [Bin-packing, Vertex-Coloring](notes/bin_packing.md)
 
 Day 3
+  ~ MIDTERM 1
+
+Day 4
   ~ [Linear Programming, Mixture Problems](notes/linear.md)
 
       [Corner Point Principle](notes/corner_point.md)
 
-Day 4
-  ~ [Transportation Problems, Tableaux](notes/tableaux.md)
-
 Day 5
-  ~ [Voting Systems, Majority Rules](notes/voting_majority.md)
+  ~ [Transportation Problems, Tableaux](notes/tableaux.md)
 
 ## Week  3 (01/19-01/23)
 
 Day 1
+  ~ [Voting Systems, Majority Rules](notes/voting_majority.md)
+
+Day 2
   ~ [Voting with more than 3 candidates](notes/voting_more_candidates.md)
 
       [Arrow's theorem](notes/voting_arrow.md)
 
-Day 2
+Day 3
   ~ [Manipulability](notes/voting_manipulability.md)
 
-Day 3
-  ~ [Impossibility, Chair's Paradox](notes/voting_chairs.md)
+      [Impossibility, Chair's Paradox](notes/voting_chairs.md)
 
 Day 4
   ~ MIDTERM 2
