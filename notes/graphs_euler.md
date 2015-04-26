@@ -11,6 +11,9 @@ Skills Check
 Exercises
   ~ 2, 7, 11, 13, 14, 18, 19, 23, 30, 37, 39, 40, 43, 46, 59
 
+Quiz
+  ~ [Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=4665)
+
 ## Notes
 
 ### 1.1
@@ -33,7 +36,7 @@ Exercises
 - Can two vertices have the same valence?
 - Can two vertices have different valences?
 - Can a vertex have a valence of 0? What would that mean for it?
-- Observe that every edge in a graph contributes 1 point each to two vertices' valences. With that in mind, what can we say about the sum of all the valences?
+- Observe that every edge in a graph contributes 1 point each to two vertices' valences. With that in mind, what can we say about the sum of all the valences in relation to the number of edges?
 - Why can't we have a graph that has exactly one odd valence?
 - When do we say that a graph is *connected*?
 - If all the valences in a graph are positive, why does that not mean that the graph is connected? Provide an example.
