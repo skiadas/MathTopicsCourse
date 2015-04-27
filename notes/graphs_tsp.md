@@ -16,15 +16,13 @@ Quiz
 
 This day's reading assignment also includes a file on minimum-cost spanning trees. Don't miss it.
 
-## Notes
-
-### 2.2
+## 2.2
 
 - What is the *Traveling Salesman Problem*? What kinds of graphs does it refer to?
 - Think of some personal experience situations that you might represent as traveling salesman problems.
 - What are some of the things that might be represented by "cost" in a TSP?
 
-### 2.3
+## 2.3
 
 - Describe how the *Nearest-Neighbor Algorithm* works for the TSP.
 - Demonstrate what results the Nearest-Neighbor Algorithm produces in some concrete examples.

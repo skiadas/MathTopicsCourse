@@ -14,9 +14,7 @@ Exercises
 Quiz
   ~ [Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=4665)
 
-## Notes
-
-### 1.1
+## 1.1
 
 - What is a *graph*? What are the vertices and edges in a graph?
 - Give examples of graphs with 4 vertices and 4 edges.
@@ -29,7 +27,7 @@ Quiz
 - Why are we interested in Euler circuits?
 - What did you find most interesting about Leonhard Euler?
 
-### 1.2
+## 1.2
 
 - What are the two key questions we would want to ask about Euler circuits? How do they differ?
 - What is the *valence* of a vertex?
@@ -46,7 +44,7 @@ Quiz
 - Intuitively, why does it make sense that a graph that has an odd valence cannot have an EC?
 - What is the key guiding principle to keep in mind when trying to find an Euler Circuit in a systematic way?
 
-### 1.3
+## 1.3
 
 - Describe the *Chinese Postman Problem*. What are some real-world examples where it might come up?
 - What does *eulerizing a graph* mean?

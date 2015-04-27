@@ -14,9 +14,7 @@ Exercises
 Quiz
   ~ [Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=4666)
 
-## Notes
-
-### 2.1
+## 2.1
 
 - What circuit do we call a *Hamiltonian Circuit*?
 - How do Hamiltonian Circuits differ from Euler Circuits?

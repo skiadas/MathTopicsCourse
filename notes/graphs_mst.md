@@ -16,9 +16,7 @@ Quiz
 
 This day's reading assignment also includes a file on traveling salesman problem. Don't miss it.
 
-## Notes
-
-### 2.4
+## 2.4
 
 - When do we call a subgraph a *tree*? When do we call it a *spanning tree*?
 - Does every graph have a spanning tree subgraph?
