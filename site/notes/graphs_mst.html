@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="http://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="minimum-cost-spanning-trees">Minimum-Cost Spanning Trees</h1>
+<p>Read the book chapters first, then make sure you can answer the questions in the notes. Following that, work on some skills-check problems and exercises. Then take the online quizzes.</p>
+<dl>
+<dt>Reading</dt>
+<dd>2.4
+</dd>
+<dt>Skills Check</dt>
+<dd>17, 22, 23, 24, 25, 26, 27
+</dd>
+<dt>Exercises</dt>
+<dd>54, 55, 57 (also do via Prim’s), 58, 60, 62, 66 (Challenge), 69
+</dd>
+<dt>Quiz</dt>
+<dd><a href="https://moodle.hanover.edu/mod/quiz/view.php?id=">(Not ready) Take the quiz</a>
+</dd>
+</dl>
+<p>This day’s reading assignment also includes a file on traveling salesman problem. Don’t miss it.</p>
+<h2 id="notes">Notes</h2>
+<h3 id="section">2.4</h3>
+<ul>
+<li>When do we call a subgraph a <em>tree</em>? When do we call it a <em>spanning tree</em>?</li>
+<li>Does every graph have a spanning tree subgraph?</li>
+<li>Are there many possible spanning tree subgraphs?</li>
+<li>What are we after in <em>minimum-cost spanning tree</em> problems?</li>
+<li>Provide some real-world situations from your experience that you might approach as minimum-cost spanning tree problems.</li>
+<li>How do Minimum-cost Spanning Tree problems differ from Hamiltonian Circuit problems and from Traveling Salesman Problems?</li>
+<li>Describe how <em>Kruskal’s algorithm</em> works.</li>
+<li>Demonstrate Kruskal’s algorithm in some examples.</li>
+<li>Does Kruskal’s algorithm always produce the minimum-cost spanning tree?</li>
+<li>There is another algorithm not discussed in the text, called <em>Prim’s algorithm</em>, that works as follows:
+<ul>
+<li>Start from an arbitrary vertex. Look at all edges that start from that vertex, and pick the one with the smallest cost. So now you have selected two vertices and an edge between them.</li>
+<li>At the next step, look at all the vertices you have selected, and look at all the edges that go from one of these vertices to a vertex you haven’t yet selected. Choose among these the edge with the smallest cost. Then add that edge, and the new vertex it connected, to your set.</li>
+<li>Continue until you have included all vertices.</li>
+</ul></li>
+<li>Demonstrate Prim’s algorithm in some examples.</li>
+</ul>
+</body>
+</html>
