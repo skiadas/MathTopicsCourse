@@ -12,7 +12,7 @@ Exercises
   ~ 54, 55, 57 (also do via Prim's), 58, 60, 62, 66 (Challenge), 69
 
 Quiz
-  ~ [(Not ready) Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=)
+  ~ [Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=4716)
 
 This day's reading assignment also includes a file on traveling salesman problem. Don't miss it.
 

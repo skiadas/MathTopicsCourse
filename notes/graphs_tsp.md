@@ -12,7 +12,7 @@ Exercises
   ~ 39, 40, 43, 44, 46, 48, 50, 51, 52
 
 Quiz
-  ~ [(Not ready) Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=)
+  ~ [Take the quiz](https://moodle.hanover.edu/mod/quiz/view.php?id=4716)
 
 This day's reading assignment also includes a file on minimum-cost spanning trees. Don't miss it.
 
