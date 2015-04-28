@@ -2,7 +2,7 @@
 
 A week-by-week breakdown of the material.
 
-## Week  1 (01/05-01/09)
+## Week  1
 
 Day 1
   ~ Introduction
@@ -21,7 +21,7 @@ Day 4
 Day 5
   ~ [Directed Graphs, Critical Paths](notes/graphs_directed.md)
 
-## Week  2 (01/12-01/16)
+## Week  2
 
 Day 1
   ~ [Priority Lists, Scheduling, Independent Tasks](notes/scheduling.md)
@@ -40,7 +40,7 @@ Day 4
 Day 5
   ~ [Transportation Problems, Tableaux](notes/tableaux.md)
 
-## Week  3 (01/19-01/23)
+## Week  3
 
 Day 1
   ~ [Voting Systems, Majority Rules](notes/voting_majority.md)
@@ -61,7 +61,7 @@ Day 4
 Day 5
   ~ [Error-Correcting, Identification Numbers](notes/codes_ecc.md)
 
-## Week  4 (01/26-01/30)
+## Week  4
 
 Day 1
   ~ [Binary Codes, Parity Check](notes/codes_binary.md)
