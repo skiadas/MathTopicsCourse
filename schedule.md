@@ -19,7 +19,9 @@ Day 4
       [Minimum Cost Spanning Trees](notes/graphs_mst.md)
 
 Day 5
-  ~ [Directed Graphs, Critical Paths](notes/graphs_directed.md)
+  ~ [Cut Property for MST's and Shortest-Paths Algorithms](notes/cut_property_dijkstra.md)
+
+      [Directed Graphs, Critical Paths](notes/graphs_directed.md)
 
 ## Week  2
 

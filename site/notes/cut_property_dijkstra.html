@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="http://skiadas.github.io/css/course.css" type="text/css" />
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1 id="cut-property-for-msts-and-dijkstras-shortest-paths-algorithm">Cut Property for MST’s and Dijkstra’s Shortest Paths algorithm</h1>
+<p>This writeup covers two somewhat unrelated topics that are not covered in the book.</p>
+<h2 id="cut-property-for-msts">Cut Property for MST’s</h2>
+<p>The first topic is a remarkable property that Minimum Spanning Trees have, that is a key tool in proving the correctness of some of the algorithms we discussed. Here’s the statement:</p>
+<blockquote>
+<p><strong>Cut Property for MST’s</strong></p>
+<p>If we separate the vertices in two sets, set P and set Q, we call this a <em>cut</em>.</p>
+<p>When we have any cut, consider all the edges that have one end in P and the other in Q. If there is an edge in this set that has smaller weight/cost than all the others, then that edge must be included in any Minimum Spanning Tree.</p>
+</blockquote>
+<p>Make sure to examine this property in some of the examples we have computed.</p>
+<p>This property is the driving force behind Prim’s algorithm: At any stage in that algorithm, we have the set of already selected vertices, and the remaining vertices, and we choose next the edge between those two sets with the smallest weight. The Cut Property guarantees for us that that edge would need to be part of any MST, so it’s a good thing that we are including it.</p>
+<p>Let us discuss a “proof” of the property, why is it true?</p>
+<p>Suppose it were not true. Then we have some cut, so splitting the vertices in two sets P and Q, and if we look at the edges joining those sets there is an edge, call it <span class="math">\(e\)</span>, that has the smallest cost. And that edge is not included in the MST.</p>
+<p>Now let’s see what happens if we include <span class="math">\(e\)</span> to our Minimum Spanning Tree: So take the MST and add this extra edge <span class="math">\(e\)</span> to it. This will create a cycle, because we already had a way in the MST of joining the vertices attached to <span class="math">\(e\)</span>.</p>
+<p>If we look at that cycle, then it must cross from P to Q at some point other than the edge <span class="math">\(e\)</span>. Let’s call this other edge <span class="math">\(f\)</span>. <span class="math">\(f\)</span> would have to have cost higher than <span class="math">\(e\)</span>.</p>
+<p>The key idea now is that if we remove <span class="math">\(f\)</span> and add <span class="math">\(e\)</span> to our MST, we get still a spanning tree, and it has a smaller overall cost than the original tree, which we thought was the MST. Take a moment to think this through. Why can we still reach all vertices, and have no cycles?</p>
+<p>So that is not possible, as it violates the key property of the MST. We have arrived at a contradiction. So our initial assumption that <span class="math">\(e\)</span> was not part of the spanning tree must be incorrect.</p>
+<h2 id="shortest-paths-and-dijkstras-algorithm">Shortest Paths and Dijkstra’s Algorithm</h2>
+<p>Dijkstra’s Algorithm solves an important problem called the <em>Shortest Paths Problem</em>:</p>
+<blockquote>
+<p><strong>Shortest Paths Problem</strong></p>
+<p>Given a graph with weights on the edges, and a starting vertex, find the shortest paths from that vertex to all other reachable vertices.</p>
+</blockquote>
+<p>This is an important problem in the internet: When you request a web page halfway around the world, there are lots of different paths over the internet that would get you to that page. Your computer and router need to have a way to find the “shortest” such paths, and they need to be able to do that very efficiently, given the enormity of the internet.</p>
+<p>We now describe Dijkstra’s algorithm, which is one of the ways of obtaining these shortest paths:</p>
+<blockquote>
+<p><strong>Dijkstra’s Algorithm</strong></p>
+<ul>
+<li>Assign initial <em>costs</em> to all the vertices: 0 for the starting vertex, infinity or a very very large number for all the other vertices.</li>
+<li>At each stage we pick from the “remaining” vertices the one with the smallest <em>cost</em> to be the “current vertex”. At the first step this would be the starting vertex.</li>
+<li>Look at all the edges that are adjacent to this current vertex. Use the edge weight, along with the cost of the current vertex, to see if you have just found a shorter route to their other endpoint. If so, update the cost on that other endpoint, and remember the edge we used to get to it.</li>
+<li>Once we do this for all the adjacent edges of the current vertex, we are done with that vertex, and will not visit it again. We then repeat the second step to pick a new “current vertex”.</li>
+</ul>
+</blockquote>
+<p>Here is a fairly detailed demonstration of Dijkstra’s algorithm:</p>
+<ul>
+<li><a href="http://www.eoinbailey.com/content/dijkstras-algorithm-illustrated-explanation" class="uri">http://www.eoinbailey.com/content/dijkstras-algorithm-illustrated-explanation</a></li>
+</ul>
+<p>Here are two visualizations of Dijkstra’s algorithm:</p>
+<ul>
+<li><a href="http://optlab-server.sce.carleton.ca/POAnimations2007/DijkstrasAlgo.html" class="uri">http://optlab-server.sce.carleton.ca/POAnimations2007/DijkstrasAlgo.html</a></li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html" class="uri">https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html</a></li>
+</ul>
+</body>
+</html>
