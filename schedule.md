@@ -37,8 +37,6 @@ Day 3
 Day 4
   ~ [Linear Programming, Mixture Problems](notes/linear.md)
 
-      [Corner Point Principle](notes/corner_point.md)
-
 Day 5
   ~ [Transportation Problems, Tableaux](notes/tableaux.md)
 
