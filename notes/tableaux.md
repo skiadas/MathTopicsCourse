@@ -23,6 +23,6 @@ Quiz
 - What are *indicator values* for a cell C, and how do we compute them? What are they used for?
 - How do we recognize that we have arrived at an optimal solution?
 
-# 4.6
+## 4.6
 
 - Describe the *Stepping Stone Method* and illustrate it in some examples.
