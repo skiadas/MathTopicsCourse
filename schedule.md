@@ -48,8 +48,6 @@ Day 1
 Day 2
   ~ [Voting with more than 3 candidates](notes/voting_more_candidates.md)
 
-      [Arrow's theorem](notes/voting_arrow.md)
-
 Day 3
   ~ [Manipulability](notes/voting_manipulability.md)
 
