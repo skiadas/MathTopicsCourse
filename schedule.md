@@ -51,8 +51,6 @@ Day 2
 Day 3
   ~ [Manipulability](notes/voting_manipulability.md)
 
-      [Impossibility, Chair's Paradox](notes/voting_chairs.md)
-
 Day 4
   ~ MIDTERM 2
 
