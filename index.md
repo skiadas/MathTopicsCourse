@@ -7,4 +7,5 @@ Course website for MAT 210 Math Topics for the Liberal Arts
 
 - [Syllabus](syllabus.md)
 - [Schedule](schedule.md)
+- [Notes](notes.md)
 - [Moodle site](https://moodle.hanover.edu/course/view.php?id=676)
